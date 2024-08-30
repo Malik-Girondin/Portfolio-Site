@@ -5,6 +5,9 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -44,6 +47,8 @@ main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
+    flex: 1;
+    padding-bottom: 60px; /* Adjust this value based on your footer height */
 }
 
 section {
@@ -67,9 +72,11 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 1rem;
+    /* Remove these lines:
     position: fixed;
     bottom: 0;
     width: 100%;
+    */
 }
 
 .education-grid {
