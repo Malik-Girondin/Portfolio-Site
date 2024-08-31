@@ -6,6 +6,7 @@
     <title>Malik Girondin - Cybersecurity Professional & Aspiring Software Engineer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="Pictures/mag_glass.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header>
@@ -18,8 +19,10 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education & Certifications</a></li>
+            <li><a href="#courses">Courses</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
         </ul>
     </nav>
 
@@ -31,15 +34,33 @@
 
         <section id="skills">
             <h2>Skills</h2>
-            <ul>
-                <li>Cybersecurity</li>
-                <li>Teaching</li>
-                <li>Communication</li>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>C#</li>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Cybersecurity</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Teaching</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-comments"></i>
+                    <h3>Communication</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <h3>HTML/CSS</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-microsoft"></i>
+                    <h3>C#</h3>
+                </div>
                 <!-- Add more skills as needed -->
-            </ul>
+            </div>
         </section>
 
         <section id="education">
@@ -79,6 +100,30 @@
             </div>
         </section>
 
+        <section id="courses">
+            <h2>Courses</h2>
+            <div class="course-grid">
+                <div class="course-item">
+                    <img src="Pictures/PowerShell.png" alt="PowerShell Course">
+                    <h3>Introduction to PowerShell</h3>
+                    <p>Learn the basics of PowerShell scripting and automation.</p>
+                    <a href="https://elearning.securityblue.team/home/courses/free-courses/introduction-to-powershell#description" class="course-link" target="_blank">View Course</a>
+                </div>
+                <div class="course-item">
+                    <img src="Pictures/python_img.png" alt="Python Course">
+                    <h3>Introduction to Python</h3>
+                    <p>Get started with Python programming for cybersecurity.</p>
+                    <a href="https://elearning.securityblue.team/home/courses/free-courses/introduction-to-python#description" class="course-link" target="_blank">View Course</a>
+                </div>
+                <div class="course-item">
+                    <img src="Pictures/Blue Team Logo 2.png" alt="Blue Team Content Engineer Course">
+                    <h3>Blue Team Content Engineer: The Complete Career Guide</h3>
+                    <p>Comprehensive guide to becoming a Blue Team Content Engineer.</p>
+                    <a href="https://www.udemy.com/course/blue-team-content-engineer-the-complete-career-guide/?couponCode=OF83024F" class="course-link" target="_blank">View Course</a>
+                </div>
+            </div>
+        </section>
+
         <section id="projects">
             <h2>Projects</h2>
             <div class="project">
@@ -94,10 +139,28 @@
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:malikgirondin@gmail.com">malikgirondin@gmail.com</a></p>
-            <p>LinkedIn: <a href="#">https://www.linkedin.com/in/malikgirondin</a></p>
-            <p>GitHub: <a href="#">https://github.com/Malik-Girondin</a></p>
-            <p>YouTube: <a href="#">https://www.youtube.com/@malikgirondin</a></p>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email</p>
+                    <a href="mailto:malikgirondin@gmail.com">malikgirondin@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <p>LinkedIn</p>
+                    <a href="https://www.linkedin.com/in/malikgirondin" target="_blank">Malik Girondin</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <p>GitHub</p>
+                    <a href="https://github.com/Malik-Girondin" target="_blank">Malik-Girondin</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-youtube"></i>
+                    <p>YouTube</p>
+                    <a href="https://www.youtube.com/@malikgirondin" target="_blank">@malikgirondin</a>
+                </div>
+            </div>
         </section>
     </main>
 
