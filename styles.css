@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #56ade2;
+    background-color: #56ade2; /* Changed from #35424a to #56ade2 */
     color: #ffffff;
     text-align: center;
     padding: 1rem;
