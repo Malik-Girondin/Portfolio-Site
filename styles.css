@@ -11,14 +11,24 @@ body {
 }
 
 header {
-    background-color: #56ade2; /* Changed from #35424a to #56ade2 */
+    background: linear-gradient(135deg, #56ade2, #2c3e50);
     color: #ffffff;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
     margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 0;
 }
 
 nav {
